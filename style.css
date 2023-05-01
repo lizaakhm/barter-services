@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+.services{
+  background-image: url("social-media-3846597 3.png");
+  background-size: cover;
+}
+
+.service-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.service-box {
+  text-align: center;
+  padding: 10px;
+}
+
+.service-box img {
+  max-width: 50%; 
+  position: relative;
+  margin: 0 auto;
+  display: block;
+}
+
+.text { 
+  font-family: 'Noto Sans Georgian';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.paragraph{
+  font-family: 'Noto Sans Georgian';
+  font-style: normal;
+  font-weight: 100;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  color: #000000;
+}
+
+
